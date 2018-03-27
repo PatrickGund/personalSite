@@ -2,6 +2,9 @@
   "name": "personalsite",
   "version": "1.0.0",
   "description": "Patrick Person Website",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -11,12 +14,24 @@
     "start-dev": "NODE_ENV='development' npm run build-client & npm run start-server"
   },
   "author": "Patrick Gund",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "compression": "^1.7.2",
     "express": "^4.16.3",
-    "morgan": "^1.9.0"
+    "fs": "0.0.1-security",
+    "history": "^4.7.2",
+    "morgan": "^1.9.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-react": "^0.79.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.40",
