@@ -6,16 +6,13 @@ import history from './history';
 import { Main } from './components';
 
 
-const Routes = () => {
-  return (
-    <Router history={history}>
-      <Main>
-        <Switch>
-        </Switch>
-      </Main>
-    </Router>
-  );
-};
+const Routes = () => (
+  <Router history={history}>
+    <Main>
+      <Switch />
+    </Main>
+  </Router>
+);
 
 const mapState = null;
 const mapDispatch = null;

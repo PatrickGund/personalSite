@@ -1,46 +1,34 @@
-import React, { Component } from 'react'
+import React from 'react';
 import { connect } from 'react-redux';
-import { Menu } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
 
-class NavMenu extends Component {
-  state = {}
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+const NavMenu = props => (
+  <header>
+    <nav>
+      <div className="logo">
+        <img alt="logo" src="icon.png" />
+        <div id="nav-name">Patrick Gund </div>
+      </div>
+      <div className="nav-item">
+        <a href="/home">Home</a>
+      </div>
+      <div className="nav-item">
+        <a href="/about">About Me</a>
+      </div>
+      <div className="nav-item">
+        <a href="/projects">My Projects</a>
+      </div>
+      <div className="nav-item">
+        <a href="/resume">Resume</a>
+      </div>
+    </nav>
+  </header>
+);
 
-  render() {
-    const { activeItem } = this.state
 
-    return (
-      <Menu>
-        <Menu.Item
-          name='home'
-          active={activeItem === 'home'}
-          onClick={this.handleItemClick}
-        >
-          Home
-        </Menu.Item>
-
-        <Menu.Item
-          name='aboutMe'
-          active={activeItem === 'aboutMe'}
-          onClick={this.handleItemClick}
-        >
-          About Me
-        </Menu.Item>
-
-        <Menu.Item
-          name='projects'
-          active={activeItem === 'projects'}
-          onClick={this.handleItemClick}
-        >
-          My Projects
-        </Menu.Item>
-      </Menu>
-    )
-  }
-}
-
-const mapState = null;
+const mapState = ({ navbar }) => ({ navbar });
 const mapDispatch = null;
 
 export default connect(mapState, mapDispatch)(NavMenu);
+

@@ -1,7 +1,7 @@
 {
   "name": "personalsite",
   "version": "1.0.0",
-  "description": "Patrick Person Website",
+  "description": "Patrick Gund | Software Engineer",
   "engines": {
     "node": ">= 7.0.0"
   },
@@ -42,9 +42,12 @@
     "@babel/register": "^7.0.0-beta.40",
     "babel-eslint": "^8.2.2",
     "babel-loader": "^8.0.0-beta.2",
-    "eslint": "^4.10.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-fullstack": "^3.0.0",
-    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9"
   }

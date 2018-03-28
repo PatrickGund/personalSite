@@ -1,16 +1,16 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { NavMenu } from './';
+import { NavMenu, Images } from './';
 
 
 const Main = (props) => {
   const { children } = props;
 
   return (
-    <div>
+    <div style={{ height: '100%' }}>
       <NavMenu />
-      <h1>Hello</h1>
+      <Images />
       <hr />
       {children}
     </div>
