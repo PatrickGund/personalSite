@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
 
 
-const NavMenu = props => (
+const NavMenu = () => (
   <header>
     <nav>
       <div className="logo">
