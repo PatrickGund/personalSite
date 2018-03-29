@@ -16,7 +16,8 @@ p {
 }
 
 h1 {
-  font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -118,7 +119,7 @@ header nav {
   color: #202b47;
   background-color: #fff;
   box-shadow: #d3d3d3;
-  color: rgba(119, 173, 199, 0.8)
+  color: rgba(119, 173, 199, 0.8);
   z-index: 2;
 }
 
@@ -160,7 +161,7 @@ section h2:after {
 }
 
 #carousel {
-  height: 100vh;
+  height: 70em;
   display: flex;
   justify-content: center;
 }
@@ -170,7 +171,8 @@ section h2:after {
   color: #fff;
   text-shadow: 2px 2px #252525;
   z-index: 1;
-  text-align: center ;
+  text-align: center;
+  margin-top: -150px;
 }
 
 #carousel .carousel-image {
@@ -180,7 +182,7 @@ section h2:after {
   min-width: 100%;
   height: 100%;
   z-index: -1;
-  margin-top: -100px;
+  margin-top: -110px;
 }
 
 #carousel .carousel-image.hidden {
@@ -246,6 +248,73 @@ section h2:after {
 
 #image-title {
     text-align: center;
+}
+#amSection {
+    display: flex;
+    margin: 0 -1em;
+}
+.amFlex {
+    display: flex;
+}
+#amSection #amTandP {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 90px;
+    margin-top: -140px;
+    width: 550px;
+    font-family: 'Montserrat', sans-serif;
+}
+#amSection #amTandP #amTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+
+}
+#amSection #amImg {
+    margin-right: 4em;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+}
+
+#amSection .amFlex {
+    font-size: 1em;
+}
+
+#skillsSection {
+   background-color: rgba(119, 173, 199, 0.8);
+   margin-top: 0.5em;
+   color: #fff; 
+}
+#skillsSection #skillsTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+}
+ 
+
+#skillsSection #skills {
+    display: flex;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#skillsSection #skills .skillsFlex {
+    display: flex;
+}
+
+#skillsSection #skills .skillsFlex p {
+    color: #fff;
+    font-size: 1em;
+}
+
+
+#skillsSection #skills .skillsFlex .skillsImg {
+    width: 7.5em;
+    height: 7.5em;
+    margin-right: 1em;
+    color: #fff;
 }
 
 .footer {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { NavMenu, Images } from './';
+import { NavMenu, Images, AboutMe, Skills } from './';
 
 
 const Main = (props) => {
@@ -11,6 +11,8 @@ const Main = (props) => {
     <div style={{ height: '100%' }}>
       <NavMenu />
       <Images />
+      <AboutMe />
+      <Skills />
       <hr />
       {children}
     </div>

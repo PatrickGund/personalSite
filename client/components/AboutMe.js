@@ -1,36 +1,29 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-
-// <Grid container columns={4} relaxed="very">
-/*   <div style={containerStyle} >
-    <div style={divStyle} >
-      <Icon name="file code outline" size="massive" />
-      <p style={pStyle} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
-       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
-      </p>
-    </div>
-    <div style={divStyle} >
-      <Icon name="database" size="massive" />
-      <p style={pStyle} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
-       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
-      </p>
-    </div>
-    <div style={divStyle} >
-      <Icon name="computer" size="massive" />
-      <p style={pStyle} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
-       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
-      </p>
-    </div>
-    <div style={divStyle} >
-      <Icon name="settings" size="massive" />
-      <p style={pStyle} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
-       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
-      </p>
-    </div> */
-
 const AboutMe = () => (
-  <div> PlaceHolder
+  <div id="amSection">
+    <div id="amTandP">
+      <h1 id="amTitle"> About Me </h1>
+      <img src="patrick.png" id="amImg" alt="MyPicture" />
+    </div>
+    <div className="amFlex">
+      <div id="amText">
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
+       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
+       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
+       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Phasellus sollicitudin sodales ornare. Nullam ac pulvinar erat,
+       ut tincidunt eros. Phasellus ac ornare dui. Curabitur et.
+        </p>
+      </div>
+    </div>
   </div>
 );
 
